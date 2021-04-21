@@ -36738,7 +36738,7 @@ k=U.acK(r,r,r,r,r,r,r,r,r,r,C.l,r,r,r,r,r,r)
 s=A.b3(r,r,C.l,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r)
 return new F.Km(l,X.acO(new P.t(4278190080),V.abD(new T.dn(C.l,r,r),r,r,r,r,r,r,new T.dn(C.l,r,r),r,r,R.a2r(r,r,A.b3(r,r,C.l,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r),r,r,r,r,r,r,s,r,r,r),r,r,r),C.T,new P.t(o),m,new P.t(o),new E.h_(n,o),new T.mT(k)),C.k)}}
 F.Km.prototype={
-L:function(a,b){return new S.uE(new X.kn(null),"Flutter Demo",this.f,null)}}
+L:function(a,b){return new S.uE(new X.kn(null),"Classic Archive",this.f,null)}}
 R.a_n.prototype={
 ei:function(a){return this.NH(a)},
 NH:function(a){var s=0,r=P.a7(t.z),q=this,p
