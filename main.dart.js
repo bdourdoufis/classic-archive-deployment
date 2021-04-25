@@ -34642,7 +34642,7 @@ a40:function(a,b){var s=0,r=P.K(t.Ts),q,p=this,o,n,m,l
 var $async$eF=P.G(function(c,d){if(c===1)return P.H(d,r)
 while(true)switch(s){case 0:m=t.Q
 s=3
-return P.M(p.c.Bo(P.dS("http://localhost:4000/api/users/login"),P.ax(["username",a,"password",b],m,m)),$async$eF)
+return P.M(p.c.Bo(P.dS("https://classic-archive-user-service.herokuapp.com/api/users/login"),P.ax(["username",a,"password",b],m,m)),$async$eF)
 case 3:l=d
 if(l.b!==200)throw H.a(P.bs("Error while logging in."))
 else{m=l.e
@@ -34660,7 +34660,7 @@ a5i:function(a,b,c,d,e){var s=0,r=P.K(t.Ts),q,p=this,o,n,m,l
 var $async$iN=P.G(function(f,g){if(f===1)return P.H(g,r)
 while(true)switch(s){case 0:m=t.Q
 s=3
-return P.M(p.c.Bo(P.dS("http://localhost:4000/api/users/register"),P.ax(["username",b,"password",c,"faction",d,"favoriteClass",e],m,m)),$async$iN)
+return P.M(p.c.Bo(P.dS("https://classic-archive-user-service.herokuapp.com/api/users/register"),P.ax(["username",b,"password",c,"faction",d,"favoriteClass",e],m,m)),$async$iN)
 case 3:l=g
 if(l.b!==200)throw H.a(P.bs("Error while registering user."))
 else{m=l.e
@@ -34678,7 +34678,7 @@ a66:function(a,b){var s=0,r=P.K(t.Ts),q,p=this,o,n
 var $async$aF=P.G(function(c,d){if(c===1)return P.H(d,r)
 while(true)switch(s){case 0:o=t.Q
 s=3
-return P.M(p.c.kz("PUT",P.dS("http://localhost:4000/api/users/update"),null,P.ax(["_id",b.a,"username",b.b,"password",b.c,"faction",b.d,"favoriteClass",b.e],o,o),null),$async$aF)
+return P.M(p.c.kz("PUT",P.dS("https://classic-archive-user-service.herokuapp.com/api/users/update"),null,P.ax(["_id",b.a,"username",b.b,"password",b.c,"faction",b.d,"favoriteClass",b.e],o,o),null),$async$aF)
 case 3:n=d
 if(n.b!==200)throw H.a(P.bs("Error while updating user."))
 q=N.jx(C.Y.fw(0,B.fV(U.fS(n.e).c.a.h(0,"charset")).bN(0,n.x),null))
@@ -34690,7 +34690,7 @@ iI:function(a){return this.a5_(a)},
 a5_:function(a){var s=0,r=P.K(t.Ts),q,p=this,o
 var $async$iI=P.G(function(b,c){if(b===1)return P.H(c,r)
 while(true)switch(s){case 0:s=3
-return P.M(p.c.m8("GET",P.dS(C.c.R("http://localhost:4000/api/users/",a)),null),$async$iI)
+return P.M(p.c.m8("GET",P.dS(C.c.R("https://classic-archive-user-service.herokuapp.com/api/users/",a)),null),$async$iI)
 case 3:o=c
 if(o.b!==200)throw H.a(P.bs("Error while retrieving user profile."))
 q=N.jx(J.at(C.Y.fw(0,B.fV(U.fS(o.e).c.a.h(0,"charset")).bN(0,o.x),null),0))
@@ -34701,7 +34701,7 @@ return P.J($async$iI,r)},
 e8:function(){var s=0,r=P.K(t.xJ),q,p=this,o
 var $async$e8=P.G(function(a,b){if(a===1)return P.H(b,r)
 while(true)switch(s){case 0:s=3
-return P.M(p.c.m8("GET",P.dS("http://localhost:4000/api/users"),null),$async$e8)
+return P.M(p.c.m8("GET",P.dS("https://classic-archive-user-service.herokuapp.com/api/users"),null),$async$e8)
 case 3:o=b
 if(o.b!==200)throw H.a(P.bs("Error while retrieving all users."))
 q=J.li(J.lg(C.Y.fw(0,B.fV(U.fS(o.e).c.a.h(0,"charset")).bN(0,o.x),null),t.lG),new X.a2b(),t.Ts).e7(0)
@@ -34714,7 +34714,7 @@ a_X:function(a,b,c){var s=0,r=P.K(t.EA),q,p=this,o,n
 var $async$eB=P.G(function(d,e){if(d===1)return P.H(e,r)
 while(true)switch(s){case 0:o=t.Q
 s=3
-return P.M(p.c.Bo(P.dS("http://localhost:4000/api/favorites/create"),P.ax(["username",a.b,"itemId",J.c0(b),"itemName",c],o,o)),$async$eB)
+return P.M(p.c.Bo(P.dS("https://classic-archive-user-service.herokuapp.com/api/favorites/create"),P.ax(["username",a.b,"itemId",J.c0(b),"itemName",c],o,o)),$async$eB)
 case 3:n=e
 if(n.b!==200)throw H.a(P.bs("Error while adding new favorite."))
 q=E.R_(C.Y.fw(0,B.fV(U.fS(n.e).c.a.h(0,"charset")).bN(0,n.x),null))
@@ -34727,7 +34727,7 @@ a5s:function(a,b){var s=0,r=P.K(t.EA),q,p=this,o,n
 var $async$eJ=P.G(function(c,d){if(c===1)return P.H(d,r)
 while(true)switch(s){case 0:o=t.Q
 s=3
-return P.M(p.c.kz("DELETE",P.dS("http://localhost:4000/api/favorites/delete"),null,P.ax(["username",a.b,"itemId",J.c0(b)],o,o),null),$async$eJ)
+return P.M(p.c.kz("DELETE",P.dS("https://classic-archive-user-service.herokuapp.com/api/favorites/delete"),null,P.ax(["username",a.b,"itemId",J.c0(b)],o,o),null),$async$eJ)
 case 3:n=d
 if(n.b!==200)throw H.a(P.bs("Error while removing favorite."))
 q=E.R_(C.Y.fw(0,B.fV(U.fS(n.e).c.a.h(0,"charset")).bN(0,n.x),null))
@@ -34739,7 +34739,7 @@ dC:function(a){return this.Nd(a)},
 Nd:function(a){var s=0,r=P.K(t.Nw),q,p=this,o,n,m,l,k
 var $async$dC=P.G(function(b,c){if(b===1)return P.H(c,r)
 while(true)switch(s){case 0:s=3
-return P.M(p.c.m8("GET",P.dS(C.c.R("http://localhost:4000/api/favorites/user/",a.b)),null),$async$dC)
+return P.M(p.c.m8("GET",P.dS(C.c.R("https://classic-archive-user-service.herokuapp.com/api/favorites/user/",a.b)),null),$async$dC)
 case 3:k=c
 if(k.b!==200)throw H.a(P.bs("Error while retrieving user favorites."))
 o=J.li(J.lg(C.Y.fw(0,B.fV(U.fS(k.e).c.a.h(0,"charset")).bN(0,k.x),null),t.lG),new X.a2d(),t.EA).e7(0)
@@ -34754,7 +34754,7 @@ eo:function(a){return this.N_(a)},
 N_:function(a){var s=0,r=P.K(t.xJ),q,p=this,o,n,m,l
 var $async$eo=P.G(function(b,c){if(b===1)return P.H(c,r)
 while(true)switch(s){case 0:s=3
-return P.M(p.c.m8("GET",P.dS("http://localhost:4000/api/favorites/item/"+J.c0(a)),null),$async$eo)
+return P.M(p.c.m8("GET",P.dS("https://classic-archive-user-service.herokuapp.com/api/favorites/item/"+J.c0(a)),null),$async$eo)
 case 3:l=c
 if(l.b!==200)throw H.a(P.bs("Error while retrieving user favorites."))
 o=J.li(J.lg(C.Y.fw(0,B.fV(U.fS(l.e).c.a.h(0,"charset")).bN(0,l.x),null),t.lG),new X.a2c(),t.EA).e7(0)
